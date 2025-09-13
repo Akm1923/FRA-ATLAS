@@ -59,7 +59,7 @@ const AuthPage: React.FC = () => {
         <div className="hidden lg:flex w-1/2 relative items-end p-12 bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2232&auto=format&fit=crop')" }}>
            <div className="absolute inset-0 bg-black/50"></div>
            <div className="relative z-10 text-white">
-             <h1 className="text-4xl font-bold leading-tight">FRA Atlas & Decision Support System</h1>
+             <h1 className="text-4xl font-bold leading-tight">FRA Atlas and Decision Support System</h1>
              <p className="mt-6 text-lg italic text-slate-200">
                "Land is the secure ground of home, the sea of livelihood, the foundation of a community."
              </p>

@@ -14,7 +14,7 @@ const AboutUsPage: React.FC = () => {
         <StarsBackground />
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-20"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2071&auto=format&fit=crop')" }}
+          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2071&auto=format=fit=crop')" }}
         ></div>
         <div className="relative max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:px-8 text-center z-10">
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
@@ -43,7 +43,7 @@ const AboutUsPage: React.FC = () => {
             </div>
             <div className="md:w-1/2">
               <img 
-                src="https://images.unsplash.com/photo-1590244636283-e83712b84a9e?q=80&w=1961&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1590244636283-e83712b84a9e?q=80&w=1961&auto=format=fit=crop" 
                 alt="Historical map" 
                 className="rounded-lg shadow-2xl object-cover w-full h-full"
               />
@@ -90,12 +90,12 @@ const AboutUsPage: React.FC = () => {
              </p>
              <div className="flex flex-col md:flex-row gap-8">
                 <div className="md:w-1/2 bg-white p-6 rounded-lg shadow-lg">
-                    <img src="https://images.unsplash.com/photo-1619468129361-605ebea04b44?q=80&w=2071&auto=format&fit=crop" alt="Map of India's forest cover" className="rounded-md object-cover w-full h-80"/>
+                    <img src="https://images.unsplash.com/photo-1619468129361-605ebea04b44?q=80&w=2071&auto=format=fit=crop" alt="Map of India's forest cover" className="rounded-md object-cover w-full h-80"/>
                     <h3 className="text-xl font-semibold mt-4">India's Forest Cover</h3>
                     <p className="text-slate-600 mt-2">Over 21% of India's land is under forest cover, forming critical ecosystems and homelands.</p>
                 </div>
                 <div className="md:w-1/2 bg-white p-6 rounded-lg shadow-lg">
-                    <img src="https://images.unsplash.com/photo-1598488053911-20a05a19b884?q=80&w=1969&auto=format&fit=crop" alt="Map showing tribal population distribution" className="rounded-md object-cover w-full h-80"/>
+                    <img src="https://images.unsplash.com/photo-1598488053911-20a05a19b884?q=80&w=1969&auto=format=fit=crop" alt="Map showing tribal population distribution" className="rounded-md object-cover w-full h-80"/>
                     <h3 className="text-xl font-semibold mt-4">Scheduled Tribe Population</h3>
                     <p className="text-slate-600 mt-2">India is home to over 104 million tribal people, many of whom reside in and around forest areas.</p>
                 </div>
@@ -125,7 +125,7 @@ const AboutUsPage: React.FC = () => {
           <section className="flex flex-col-reverse md:flex-row items-center gap-12">
              <div className="md:w-1/2">
                <img 
-                src="https://images.unsplash.com/photo-1524850011238-e32145e5d482?q=80&w=2070&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1524850011238-e32145e5d482?q=80&w=2070&auto=format=fit=crop" 
                 alt="Forest community" 
                 className="rounded-lg shadow-2xl object-cover w-full h-full"
               />
@@ -133,7 +133,7 @@ const AboutUsPage: React.FC = () => {
             <div className="md:w-1/2">
               <h2 className="text-3xl font-bold text-slate-900 mb-4">Our Mission: Bridging the Gap with Technology</h2>
               <p className="text-lg text-slate-600 mb-4">
-                The FRA Atlas & Decision Support System was born from the conviction that modern technology can overcome these implementation hurdles. By using AI to digitize legacy documents, GIS to visualize land data, and a powerful DSS to link beneficiaries with schemes, we aim to:
+                The FRA Atlas and Decision Support System was born from the conviction that modern technology can overcome these implementation hurdles. By using AI to digitize legacy documents, GIS to visualize land data, and a powerful DSS to link beneficiaries with schemes, we aim to:
               </p>
               <ul className="space-y-3 text-lg text-slate-700">
                   <li className="flex items-start"><span className="text-orange-500 font-bold mr-3 mt-1">✓</span> Accelerate the rights recognition process.</li>

@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
       <StarsBackground />
       <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <p className="text-sm">
-          &copy; {new Date().getFullYear()} FRA Atlas & Decision Support System. All Rights Reserved.
+          &copy; {new Date().getFullYear()} FRA Atlas and Decision Support System. All Rights Reserved.
         </p>
         <p className="text-xs mt-2">
           A conceptual model for the Smart India Hackathon.

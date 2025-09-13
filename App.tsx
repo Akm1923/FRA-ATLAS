@@ -55,7 +55,7 @@ const App: React.FC = () => {
 const ProtectedRoute = ({ children, role }: { children: JSX.Element, role: 'gov' | 'user' }) => {
   const auth = useAuth();
   if (!auth.isLoggedIn || auth.role !== role) {
-    return <Navigate to="/auth" replace />;
+    return <Navigate to="/auth" />;
   }
   return children;
 };

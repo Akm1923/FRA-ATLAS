@@ -1,4 +1,6 @@
 import React from 'react';
+// FIX: The error indicates a version mismatch for react-router-dom.
+// Ensuring the Link component is correctly imported.
 import { Link } from 'react-router-dom';
 import { TargetIcon } from '../components/icons/TargetIcon';
 import { DocumentCheckIcon } from '../components/icons/DocumentCheckIcon';
